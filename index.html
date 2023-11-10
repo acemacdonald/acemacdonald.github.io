@@ -1,14 +1,247 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width:100%; height:100%;">
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>kekayan's Resume</title>
+<!-- Put your site title here -->
+<title>
+    Angus Macdonald | Financial Enginner | Oxford MBA
+</title>
+
+<meta name="description" content="Add small description of yourslef.">
+<!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+<meta name="keywords" content="R, SQL, Python, PowerBI" />
+<link rel="stylesheet" href="index.css" />
 </head>
+<!-- ***** Header ***** -->
 
-<body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://github.com/acemacdonald/Angus-Macdonald-CV/blob/main/Angus%20Macdonald%20CV.pdf &embedded=true"
-        style="width:100%; height:100%;" frameborder="0"></iframe>
+<header class="header" role="banner" id="top">
+    <div class="row">
+        <nav class="nav" role="navigation">
+            <ul class="nav__items">
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__text-box row">
+        <div class="header__text">
+            <h1 class="heading-primary">
+                <!-- Replace the following name with your name -->
+                <span>Angus Macdonald</span>
+            </h1>
+            <!-- Put a small paragraph about yourself -->
+            <p>Financial Enginner and recent MBA graduate from the Said Business School, Oxford.
+                Passionate about the intersection between climate and technology. </p>
+            <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+        <div class="row">
+            <h2>My Projects</h2>
+            <p>
+                This sections contains personal projects that I have performed over the years to develop my skills
+                over and above the projects that were performed at our clients. As a financial enginner, the bulk
+                of our client work revolved around large-scale, strategic projects, with our main tool being SQL.
+
+                As such, this is not a I have pursued many small, personal projects to expand my knowledge of different
+                coding
+                platforms and subject matter. Many of these continue to remain as "work-in-progress" projects and seek
+                to be
+                updated when possible.
+            </p>
+            <div class="work__boxes">
+
+                <!-- Each div with the work__box class is a project. -->
+
+                <div class="work__box">
+                    <div class="work__text">
+                        <h3>Bulding a DCF Model using Python</h3>
+                        <p>
+                            An introduction to financial modelling using Python libraries.
+                        </p>
+                        <ul class="work__list">
+                            <li>Python</li>
+                            <li>Financial Modelling</li>
+                            <li>Markdown</li>
+                        </ul>
+
+                        <div class="work__links">
+                            <a href="https://github.com/acemacdonald/DCF-Modelling-in-Python" target="_blank"
+                                class="link__text">
+                                Visit Notebook <span>&rarr;</span>
+                            </a>
+                            <a href="https://github.com/acemacdonald/DCF-Modelling-in-Python" title="View Source Code"
+                                target="_blank">
+                                <img src="./images/github.svg" class="work__code" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work__image-box">
+                        <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+                    </div>
+                </div>
+
+                <div class="work__box">
+                    <div class="work__text">
+                        <h3>Geospatial Analysis Fundamentals</h3>
+                        <p>
+                            An introduction to geospatial analysis in Python.
+
+                        </p>
+                        <ul class="work__list">
+                            <li>Python</li>
+                            <li>Geospatial Analysis</li>
+                            <li>Climate</li>
+                        </ul>
+
+                        <div class="work__links">
+                            <a href="https://github.com/acemacdonald/Geospatial-Analysis-Fundamentals" target="_blank"
+                                class="link__text">
+                                Visit Notebook <span>&rarr;</span>
+                            </a>
+                            <a href="#">
+                                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work__image-box">
+                        <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+                    </div>
+                </div>
+
+                <div class="work__box">
+                    <div class="work__text">
+                        <h3>Exercise Prediction Using ML</h3>
+                        <p>
+                            Using machine learning techniques to predict which exercises are performed using fitness
+                            devices.
+                        </p>
+                        <ul class="work__list">
+                            <li>R</li>
+                            <li>Machine Learning</li>
+                            <li>RMarkdown</li>
+                        </ul>
+
+                        <div class="work__links">
+                            <a href="https://github.com/acemacdonald/Predicting-Exercise-Styles-using-R" target="_blank"
+                                class="link__text">
+                                Visit Project <span>&rarr;</span>
+                            </a>
+                            <a href="#">
+                                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work__image-box">
+                        <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+        <div class="row">
+            <h2>About Me</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <!-- Replace the below paragraph with info about yourself -->
+                    <p>
+                        I have a formal education in economics, receiving an MComm Economics
+                        from Stellenbosch University in 2018. Thereafter I spent almost five
+                        years at one of South Africa's top consulting firm, specialising in
+                        Financial Engineering while working on large strategic change projects.
+
+                        I have recently completed my MBA studies from the Said Business
+                        School at University of Oxford where I was proviledged enough
+                        to immerse myself in advanced subject matter ranging from Strategy and
+                        Finance, to Negotiations and Impact Investing.
+
+                        I have a passion for nature and sustainability, spending almost
+                        every weekend growing up at our family farm in the Cederberg. My love
+                        for natural spaces has heavily influenced who I am today, which at my
+                        core is a person who seeks to preserve our natural world for generations
+                        to come.
+                    </p>
+                    <!-- Provide a link to your resume -->
+                    <a href="Angus Macdonald CV.pdf" class="btn">My Resume</a>
+                </div>
+
+                <div class="about__photo-container">
+                    <!-- Add a nice photo of yourself -->
+                    <img class="about__photo" src="./images/AM_HS.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ***** Contact ***** -->
+
+<section class="contact" id="contact">
+    <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+            <p>
+                If you have any qestions, queries, or want to get in touch, please feel free to get in contact with me.
+            </p>
+            <!-- Replace the email with yours -->
+            <a href="ace.macdonald@gmail.com" class="btn">ace.macdonald@gmail.com</a>
+        </div>
+    </div>
+</section>
+
+<!-- ***** Footer ***** -->
+
+<footer role="contentinfo" class="footer">
+    <div class="row">
+        <!-- Update the links to point to your accounts -->
+        </li>
+        <li class="footer__social-link-item">
+            <a href="https://github.com/acemacdonald" title="Link to Github Profile">
+                <img src="./images/github.svg" class="footer__social-image" alt="Github">
+            </a>
+        </li>
+        <li class="footer__social-link-item">
+            <a href=https://www.linkedin.com/in/angus-macdonald92/">
+                <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+                    alt="Linkedin">
+            </a>
+        </li>
+        </ul>
+
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+        <p>
+            &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        </p>
+        <div class="footer__github-buttons">
+            <iframe
+                src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+                frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+            </iframe>
+        </div>
+    </div>
+</footer>
+
+<a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+</a>
+<script src="./index.js"></script>
 </body>
 
 </html>
