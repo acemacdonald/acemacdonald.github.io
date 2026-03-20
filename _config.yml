@@ -1,0 +1,11 @@
+title: Angus Macdonald
+description: Financial Engineer and Oxford MBA. Writing on data, finance, and technology.
+url: "https://acemacdonald.github.io"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
